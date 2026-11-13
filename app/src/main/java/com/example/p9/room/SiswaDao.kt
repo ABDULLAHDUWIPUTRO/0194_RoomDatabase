@@ -1,7 +1,5 @@
 package com.example.p9.room
 
-package com.example.roomdb.room
-
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
