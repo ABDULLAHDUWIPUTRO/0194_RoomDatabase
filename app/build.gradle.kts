@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
 }
@@ -48,7 +48,7 @@ dependencies {
     ksp(libs.room.compiler)
     //viewmodel
     implementation(libs.lifecycle.viewmodel.compose)
-    implementation(libs.navigation.compose)
+    implementation(libs.lifecycle.runtime.compose)
     //navigasi
     implementation(libs.navigation.compose)
 
